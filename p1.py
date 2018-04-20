@@ -9,3 +9,4 @@ for i in range(1, 1000): # (1, 2, ..., 999)
     if i%3==0 or i%5==0:
         total+=i;
 print("Sum of all n s.t. n = 3k or 5k:",total)
+#233168
