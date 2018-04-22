@@ -12,10 +12,10 @@ start = time.time()
 
 def smallest_common_multiple():
     scp = 0
-    divisors = range(11, 20)
+    divisors = range(11, 21)
     multiple = 2520
     iter = 0
-    for i in range(1, 21):
+    for i in range(1, 20):
         iter += i
     while(scp == 0):
         for i in divisors:
